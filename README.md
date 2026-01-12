@@ -1,6 +1,6 @@
 # Comparative Analysis of SFT Strategies: Random Ensembles vs. Topic-Based Mixture of Experts (MoE)
 
-## 📌 Project Overview
+## Project Overview
 This project investigates the impact of data distribution strategies on Large Language Model (LLM) fine-tuning. Using the **Llama-3.2-3B** model and the **Databricks-Dolly-15k** dataset, we compare two Supervised Fine-Tuning (SFT) approaches:
 1.  **Random Disjoint Splits (Bagging Simulation):** Training independent models on randomly shuffled data subsets.
 2.  **Topic-Based Mixture of Experts (MoE):** Training specialized expert models on categorical data subsets (e.g., Creative Writing, Coding, History).
