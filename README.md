@@ -24,3 +24,12 @@ This project investigates the impact of data distribution strategies on Large La
 ### Requirements
 ```bash
 pip install -U transformers peft bitsandbytes trl
+
+##Model Architecture
+Base Model: Meta-Llama-3.2-3B-Instruct
+Quantization: 4-bit (QLoRA)
+Adapter: LoRA (Rank: 64, Alpha: 16)
+
+## 👤 Author
+Esra Şoltan - Yıldız Technical University
+This project was prepared for the Computer Engineering Department.
