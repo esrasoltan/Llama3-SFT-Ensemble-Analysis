@@ -19,13 +19,7 @@ This project investigates the impact of data distribution strategies on Large La
 ![Specialization Effect](specialization.png)
 *Figure 2: Impact of specialization on ROUGE scores across different categories.*
 
-## Installation & Usage
-
-### Requirements
-```bash
-pip install -U transformers peft bitsandbytes trl
-
-##Model Architecture
+## Model Architecture
 Base Model: Meta-Llama-3.2-3B-Instruct
 Quantization: 4-bit (QLoRA)
 Adapter: LoRA (Rank: 64, Alpha: 16)
@@ -33,3 +27,10 @@ Adapter: LoRA (Rank: 64, Alpha: 16)
 ## 👤 Author
 Esra Şoltan - Yıldız Technical University
 This project was prepared for the Computer Engineering Department.
+
+## Installation & Usage
+
+### Requirements
+```bash
+pip install -U transformers peft bitsandbytes trl
+
