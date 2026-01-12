@@ -12,7 +12,7 @@ This project investigates the impact of data distribution strategies on Large La
 ## Results
 
 ### 1. Performance Comparison (ROUGE Scores)
-![ROUGE Comparison](rouge.jpg)
+![ROUGE Comparison](rouge.png)
 *Figure 1: Comparison of Random Ensemble vs. Topic Router.*
 
 ### 2. The Effect of Specialization
