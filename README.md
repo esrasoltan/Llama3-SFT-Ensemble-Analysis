@@ -10,7 +10,7 @@ This project investigates the impact of data distribution strategies on Large La
 * **Qualitative:** Expert models demonstrated superior performance in **style transfer** (e.g., writing poems), **format adherence** (e.g., JSON output), and **hallucination resistance**.
 
 ## Results
-
+ 
 ### 1. Performance Comparison (ROUGE Scores)
 ![ROUGE Comparison](rouge.png) 
 *Figure 1: Comparison of Random Ensemble vs. Topic Router.*
@@ -24,7 +24,7 @@ Base Model: Meta-Llama-3.2-3B-Instruct
 Quantization: 4-bit (QLoRA)
 Adapter: LoRA (Rank: 64, Alpha: 16)
 
-## 👤 Author
+## Author
 Esra Şoltan - Yıldız Technical University
 This project was prepared for the Computer Engineering Department.
 
